@@ -1,0 +1,23 @@
+@media only screen and ( max-width: 667px) {
+    header{
+        height: 60px;
+
+    }
+    .left-side-khoji{
+        display: none;
+    }
+    .right-side-khoji a {
+          display: none;
+    }
+    .right-side-khoji{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-side-khoji .menu{
+        width: 10px;
+        height: 4px;
+        background-color: black;
+        cursor: pointer;
+    }
+}
